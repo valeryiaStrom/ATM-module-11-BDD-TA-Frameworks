@@ -1,0 +1,29 @@
+{
+  "name": "atm-module-11-bdd-ta-frameworks",
+  "version": "1.0.0",
+  "description": "Hometask for module 11 BDD TA Frameworks",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node ./test/utils/delete_reports.js",
+    "test": "protractor ./test/config/protractor.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeryiaStrom/ATM-module-11-BDD-TA-Frameworks.git"
+  },
+  "author": "Valeryia Strom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valeryiaStrom/ATM-module-11-BDD-TA-Frameworks/issues"
+  },
+  "homepage": "https://github.com/valeryiaStrom/ATM-module-11-BDD-TA-Frameworks#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "cucumber-pretty": "^6.0.0",
+    "fs-extra": "^9.0.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^6.2.1"
+  }
+}
